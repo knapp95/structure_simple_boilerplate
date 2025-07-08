@@ -1,11 +1,11 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:future_mind_app/l10n/app_localizations.dart';
 import 'package:future_mind_app/presentation/foods/events/foods_event.dart';
 import 'package:future_mind_app/presentation/foods/foods_bloc.dart';
 import 'package:future_mind_app/presentation/foods/states/foods_state.dart';
 import 'package:future_mind_app/presentation/foods/widgets/food_list_widget.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:future_mind_app/presentation/foods/widgets/foods_loading_widget.dart';
 
 @RoutePage()
